@@ -79,7 +79,7 @@ body{
 	width: 79%;
 	clear: left;
 	float: left;
-	color: black;
+	color: gray;
 	font: 1.7em/1.5em bold Helvetica;
 	text-align: left;
 }
@@ -137,7 +137,7 @@ body{
 }
 
 #maincontent a{
-	color: rgb(168,0,0);
+	color: rgb(201,107,50);
 	text-decoration: underline;
 	background: none;
 	overflow: auto
