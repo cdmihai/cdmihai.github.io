@@ -190,24 +190,11 @@ body{
 	margin: 0px auto;
 }
 
-#maincontent #onecol #pubTitle {
-	font-style: oblique;
-}
-#maincontent #onecol #pubAuthor {
-	margin: 10px 0px 0px 0px;
-	font-weight: 700;
-}
-
 #maincontent #onecol img{
 	display: block;
 	max-width:680px;
 	width: expression(this.width > 680 ? 680: true);
-}
-
-#maincontent #paperlink{
-	border-bottom: 1px solid rgb(255,200,200);
-	padding: 0px 0px 10px 0px;
-	margin: 0px 0px 10px 0px;	
+	overflow: auto
 }
 
 #maincontent #respform{
@@ -224,4 +211,17 @@ body{
 	font: 1.3em/1.6em 'Trebuchet MS', Helvetica, Arial, sans-serif;
 	text-align: center;
 	color: white;
+}
+
+/*publication div table*/
+#ResearchTable{
+        display: block;
+        overflow: auto
+    }
+.ConfCell{
+	text-align: center;
+}
+
+.PaperCell{
+
 }
