@@ -139,6 +139,7 @@ body{
 	color: rgb(168,0,0);
 	text-decoration: underline;
 	background: none;
+	overflow: auto
 }
 
 #maincontent #onecol{
